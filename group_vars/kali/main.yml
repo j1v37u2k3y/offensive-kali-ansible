@@ -8,17 +8,22 @@ apt_packages:
 - bettercap
 - build-essential
 - chromium
+- copyq
 - docker.io
 - docker-compose
 - dnsutils
 - eyewitness
+- exiftool
 - ffuf
+- flameshot
 - gdb
 - gdbserver
 - gem
 - gobuster
 - golang
+- jd-gui
 - jq
+- jxplorer
 - libffi-dev
 - libpcap-dev
 - libssl-dev
@@ -33,6 +38,7 @@ apt_packages:
 - libwacom-common
 - libkrb5-dev
 - llvm
+- ltrace
 - msfpc
 - mimikatz
 - ncat
@@ -50,7 +56,11 @@ apt_packages:
 - python3.9-dev
 - python3.9-full
 - seclists
+- steghide
+- strace
 - tk-dev
+- xclip
+- xfce4-terminal
 - xz-utils
 - zlib1g-dev
 - zsh
@@ -72,6 +82,7 @@ pip_packages:
   - Cython
   - dirhunt
   - getsploit
+  - jsbeautifier
   - ldap3  
   - mitm6
   - minikerberos
@@ -82,6 +93,7 @@ pip_packages:
   - pywhat
   - requests
   - unicorn
+  - updog
 
 # Gem Packages -- still needs added as task
 gem_packages:
@@ -183,9 +195,12 @@ python_setup_internal:
 
 # GoLang Tools -- Only on external
 go_tools:
+  - {tool: "anew", repo: "github.com/tomnomnom/anew@latest"}
   - {tool: "hakrawler", repo: "github.com/hakluke/hakrawler@latest"}
   - {tool: "shhgit", repo: "github.com/eth0izzle/shhgit@latest"}
   - {tool: "gitleaks", repo: "github.com/zricethezav/gitleaks.git@latest"}
+  - {tool: "gron", repo: "github.com/tomnomnom/gron@latest"}
+  - {tool: "httprobe", repo: "github.com/tomnomnom/httprobe@latest"}
   - {tool: "trufflehog", repo: "github.com/trufflesecurity/trufflehog.git@latest"}
   - {tool: "CloudBrute", repo: "github.com/0xsha/CloudBrute@latest"}
   - {tool: "waybackurls", repo: "github.com/tomnomnom/waybackurls@latest"}
