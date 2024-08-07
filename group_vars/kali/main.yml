@@ -132,8 +132,8 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "nlzr", repo: "https://github.com/noahpowers/nlzr.git"}
   - {path: "/opt/network-tools", dir_name: "Pentest-Scripts", repo: "https://github.com/averagesecurityguy/scripts.git"}
 
-  # External Only git repos
- e_git_repos: 
+# External Only git repos
+e_git_repos:
   - {path: "/opt/recon-tools", dir_name: "spiderfoot", repo: "https://github.com/smicallef/spiderfoot.git"} 
   - {path: "/opt/recon-tools", dir_name: "knockpy", repo: "https://github.com/guelfoweb/knock.git"}
   - {path: "/opt/recon-tools", dir_name: "censys-subdomain-finder", repo: "https://github.com/christophetd/censys-subdomain-finder.git"}
@@ -144,8 +144,8 @@ git_repos:
   - {path: "/opt/web-tools", dir_name: "VHostScan", repo: "VHostScan https://github.com/codingo/VHostScan.git"}
   - {path: "/opt/web-tools", dir_name: "BlackWidow", repo: "https://github.com/1N3/BlackWidow.git"}
 
-  # Internal only git repos
- i_git_repos: 
+# Internal only git repos
+i_git_repos:
   - {path: "/opt/network-tools", dir_name: "bloodhound", repo: "https://github.com/fox-it/BloodHound.py.git"} 
   - {path: "/opt/network-tools", dir_name: "certi", repo: "https://github.com/zer1t0/certi.git"}
   - {path: "/opt/network-tools", dir_name: "certipy", repo: "https://github.com/ly4k/Certipy.git"}
