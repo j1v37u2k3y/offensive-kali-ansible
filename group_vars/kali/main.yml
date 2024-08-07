@@ -59,6 +59,7 @@ apt_packages:
 - steghide
 - strace
 - tk-dev
+- tmux
 - xclip
 - xfce4-terminal
 - xz-utils
